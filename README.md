@@ -2,6 +2,8 @@
 
 Here's a different method on how we can host our static website using docker and AWS S3. The webpages are saved in AWS S3, which will be mounted to the host via s3fs. This mount point can be used to create a docker volume. This will eliminate the need to take backup.
 
+![static](https://user-images.githubusercontent.com/97940074/149896220-fd451a34-9bed-49e6-865b-e4dcc91bb92b.jpg)
+
 See the detailed step followed by me do so
 
 **Step 1:  Install and configure aws cli**
