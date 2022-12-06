@@ -35,7 +35,7 @@ As my website code was on git hub , I can clone that from git .You can place the
 
 #docker run -d --name web1 -p 80:80 --mount type=bind,source=/mnt/web,target=/usr/local/apache2/htdocs,readonly httpd:latest
 
-**Step 5 : Verify ***
+**Step 5 : Verify***
 
 In web browser, verify connectivity to the container
 
